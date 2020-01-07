@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   display: flex;
+   justify-content: center;
+   background-color: #631E12;
+}
+.wrapper {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    height: 500px;
+    border-radius: 15px;
+
+}
+.title {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.row {
+    display: flex;
+    height: 25px;
+    align-items: center;
+}
+.calculate {
+    background-color: #9F283D;
+    border-radius: 10px;
+    width: 40%;
+    height: 50px;
+    color: white;
+    align-self: center;
+    margin: 5%;
+    outline: none;
+}
+.calculate:hover {
+    background-color: #631E12;
+}
+
+.form {
+    width: 50%;
+}
